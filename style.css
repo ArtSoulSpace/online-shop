@@ -1,17 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 76px;
+}
+
 .nav__link {
   font-size: 16px;
   line-height: 20px;
+  text-decoration: none;
+}
+
+.nav__link:hover,
+.footer__link:hover{
+    text-decoration: underline;
 }
 
 .title {
   font-weight: 600;
   font-size: 64px;
   line-height: 70px;
+  margin-top: 64px;
+  margin-bottom: 16px;
 }
 
 .subtitle {
   font-size: 24px;
   line-height: 32px;
+  padding-bottom: 16px;
 }
 
 .link-next {
@@ -24,6 +42,7 @@
   font-size: 48px;
   line-height: 59px;
   color: #000000;
+  margin-bottom: 32px;
 }
 
 .product-name {
@@ -31,12 +50,14 @@
   font-size: 24px;
   line-height: 29px;
   color: #000000;
+  padding-bottom: 8px;
 }
 
 .product-description {
   font-size: 14px;
   line-height: 17px;
   color: #888888;
+  padding-bottom: 12px;
 }
 
 .product-price {
@@ -60,6 +81,7 @@
   font-size: 24px;
   line-height: 29px;
   color: #000000;
+  padding-bottom: 12px;
 }
 
 .footer__link {
@@ -74,6 +96,7 @@
   font-size: 14px;
   line-height: 16px;
   color: #000000;
+  padding-bottom: 16px;
 }
 
 .newsletter__input {
