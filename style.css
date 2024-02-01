@@ -3,14 +3,53 @@
     padding: 0;
 }
 
-.header{
-    height: 76px;
+body{
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Main */
+
+.main{
+  height: 735px;
+  background-image: url(img/topbackg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main__header{
+    height: 77px;
+}
+
+.header__input{
+  width: 288px;
+  height: 41px;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  background-color: transparent;
+  outline: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  padding-left: 32px;
+  padding-right: 32px;
+  box-sizing: border-box;
+}
+
+.header__input::placeholder{
+  color: #FFFFFF;
 }
 
 .nav__link {
   font-size: 16px;
   line-height: 20px;
-  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .nav__link:hover,
@@ -24,20 +63,27 @@
   line-height: 70px;
   margin-top: 64px;
   margin-bottom: 16px;
+  color: #FFFFFF;
+  width: 790px;
 }
 
 .subtitle {
   font-size: 24px;
   line-height: 32px;
   padding-bottom: 16px;
+  color: #FFFFFF;
 }
 
 .link-next {
   font-size: 16px;
   line-height: 24px;
+  text-decoration: underline;
+  color: #FFFFFF;
 }
 
-.special-offers {
+/* Special offers */
+
+.special-offers__title {
   font-weight: 600;
   font-size: 48px;
   line-height: 59px;
@@ -75,6 +121,17 @@
   color: #888888;
 }
 
+/* Catalog */
+
+.catalog__title{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  color: #000000;
+}
+
+/* Footer */
+
 .footer__menu,
 .footer__contacts {
   font-weight: 500;
@@ -106,9 +163,12 @@
   border-radius: 20px;
   font-style: normal;
   font-weight: normal;
+  height: 46px;
+  width: 275px;
   font-size: 15px;
   line-height: 18px;
   color: #c4c4c4;
+  outline: none;
 }
 
 .newsletter__btn-subscribe {
@@ -121,4 +181,5 @@
   font-size: 15px;
   line-height: 18px;
   color: #000000;
+  
 }
