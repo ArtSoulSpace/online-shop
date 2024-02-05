@@ -123,12 +123,26 @@ a {
   gap: 8px;
 }
 
+.bread-crumbs__link {
+  color: #000;
+  font-size: 16px;
+}
+
+select {
+  outline: none;
+  appearance: none;
+  background-image: url(img/arrows/Polygon\ 1.png);
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-size: 18px auto, 100%;
+}
 .filter__sort__sort {
   border-radius: 20px;
   border-color: #c4c4c4;
   height: 41px;
   width: 288px;
-  padding-left: 8px;
+  padding-left: 16px;
+  font-size: 16px;
 }
 
 /* Furniture for */
