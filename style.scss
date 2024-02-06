@@ -24,6 +24,7 @@ a {
 }
 
 /* Main */
+
 .main {
   height: 735px;
   background-image: url(img/topbackg.jpg);
@@ -55,10 +56,6 @@ a {
   padding-left: 32px;
   padding-right: 32px;
   box-sizing: border-box;
-}
-
-.header__input::-moz-placeholder {
-  color: #ffffff;
 }
 
 .header__input::placeholder {
@@ -106,6 +103,7 @@ a {
 }
 
 /* Catalog Page */
+
 .catalog-page {
   height: 400px;
   background-image: url(img/topback-catalog.jpg);
@@ -132,15 +130,12 @@ a {
 
 select {
   outline: none;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  appearance: none;
   background-image: url(img/arrows/Polygon\ 1.png);
   background-repeat: no-repeat, repeat;
   background-position: right 0.7em top 50%, 0 0;
   background-size: 18px auto, 100%;
 }
-
 .filter__sort__sort {
   border-radius: 20px;
   border-color: #c4c4c4;
@@ -151,6 +146,7 @@ select {
 }
 
 /* Furniture for */
+
 .furniture-for {
   margin-top: 64px;
 }
@@ -201,6 +197,7 @@ select {
 }
 
 /* Special offers */
+
 .special-offers {
   padding-top: 64px;
 }
@@ -208,8 +205,7 @@ select {
 .product__content {
   margin-top: 32px;
   display: flex;
-  -moz-column-gap: 32px;
-       column-gap: 32px;
+  column-gap: 32px;
   row-gap: 56px;
   flex-wrap: wrap;
 }
@@ -261,6 +257,7 @@ select {
 }
 
 /* Catalog */
+
 .catalog {
   padding-top: 64px;
 }
@@ -285,6 +282,7 @@ select {
 }
 
 /* Footer */
+
 .footer__content {
   background: #f7f6f6;
   display: flex;
@@ -367,151 +365,4 @@ select {
   color: #000000;
 }
 
-.cart__page {
-  height: 400px;
-  background-image: url(img/cart/topcart.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.title__for-page {
-  font-weight: 600;
-  font-size: 64px;
-  line-height: 70px;
-  margin-top: 127px;
-  color: #ffffff;
-}
-
-.cart {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 32px;
-  margin-top: 64px;
-}
-.cart__content {
-  grid-column: span 8;
-}
-.cart__name-box {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 14px;
-}
-.cart__item {
-  border-top: 0.5px solid #cacdd8;
-  padding-top: 25px;
-  padding-bottom: 32px;
-  display: flex;
-  justify-content: space-between;
-  align-items: start;
-}
-.cart__left {
-  display: flex;
-  gap: 32px;
-}
-.cart__info {
-  width: 276px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-.cart__cart__product-item {
-  padding-top: 15px;
-  font-weight: 400;
-  font-size: 24px;
-}
-.cart__product-description {
-  font-weight: 400;
-  font-size: 14px;
-  color: #888888;
-}
-.cart__price {
-  font-weight: 600;
-  font-size: 16px;
-  color: #050505;
-}
-.cart__link-box {
-  display: flex;
-  gap: 32px;
-}
-.cart__link {
-  font-size: 14px;
-  color: #000;
-  text-decoration: underline;
-}
-.cart__bnt-box {
-  padding-top: 24px;
-  display: flex;
-  gap: 5px;
-}
-.cart__btn {
-  width: 200px;
-  height: 37px;
-  border-radius: 50px;
-  font-size: 14px;
-  background-color: #ffffff;
-}
-.cart__form {
-  height: 556px;
-  background: #f7f6f6;
-  border-radius: 20px;
-  grid-column: span 4;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  padding-left: 24px;
-  padding-right: 24px;
-}
-.cart__form__title {
-  display: flex;
-  justify-content: center;
-  padding-top: 32px;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 36px;
-}
-.cart__form__input {
-  padding-top: 24px;
-  border: none;
-  background: transparent;
-  border-bottom: 1px solid #cacdd8;
-}
-.cart__form__input::-moz-placeholder {
-  color: #000;
-  font-size: 16px;
-}
-.cart__form__input::placeholder {
-  color: #000;
-  font-size: 16px;
-}
-.cart__form__text {
-  display: flex;
-  justify-content: center;
-  padding-top: 64px;
-  font-weight: 400;
-  font-size: 24px;
-}
-.cart__form__btn {
-  margin-left: 16px;
-  font-size: 16px;
-  width: 290px;
-  height: 41px;
-  border-radius: 20px;
-  background-color: transparent;
-}
-
-.input__count {
-  box-sizing: border-box;
-  background-color: #f7f6f6;
-  border: none;
-  width: 71px;
-  height: 51px;
-  border-radius: 6px;
-  padding: 20px;
-}
-
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}/*# sourceMappingURL=style.css.map */
+@import 'cart';

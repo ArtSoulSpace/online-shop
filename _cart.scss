@@ -1,0 +1,166 @@
+.cart__page {
+  height: 400px;
+  background-image: url(img/cart/topcart.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.title__for-page {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 70px;
+  margin-top: 127px;
+  color: #ffffff;
+}
+
+.cart {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px;
+  margin-top: 64px;
+
+  &__content {
+    grid-column: span 8;
+  }
+
+  &__name-box {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 14px;
+  }
+
+  &__item {
+    border-top: 0.5px solid #cacdd8;
+    padding-top: 25px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  &__left {
+    display: flex;
+    gap: 32px;
+  }
+
+  &__info {
+    width: 276px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__cart__product-item {
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  &__product-description {
+    font-weight: 400;
+    font-size: 14px;
+    color: #888888;
+  }
+
+  &__price {
+    font-weight: 600;
+    font-size: 16px;
+    color: #050505;
+  }
+
+  &__link-box {
+    display: flex;
+    gap: 32px;
+  }
+
+  &__link {
+    font-size: 14px;
+    color: #000;
+    text-decoration: underline;
+  }
+
+  &__bnt-box {
+    padding-top: 24px;
+    display: flex;
+    gap: 5px;
+  }
+
+  &__btn {
+    width: 200px;
+    height: 37px;
+    border-radius: 50px;
+    font-size: 14px;
+    background-color: #ffffff;
+  }
+
+  &__form {
+    height: 556px;
+    background: #f7f6f6;
+    border-radius: 20px;
+    grid-column: span 4;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    &__title {
+      display: flex;
+      justify-content: center;
+      padding-top: 32px;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 36px;
+    }
+
+    &__input {
+      padding-top: 24px;
+      border: none;
+      background: transparent;
+      border-bottom: 1px solid #cacdd8;
+    }
+    &__input::placeholder{
+        color: #000;
+        font-size: 16px;
+    }
+
+
+    &__text {
+      display: flex;
+      justify-content: center;
+      padding-top: 64px;
+      font-weight: 400;
+      font-size: 24px;
+    }
+
+    &__btn {
+        margin-left: 16px;
+      font-size: 16px;
+      width: 290px;
+      height: 41px;
+      border-radius: 20px;
+      background-color: transparent;
+    }
+  }
+}
+
+.input__count {
+  box-sizing: border-box;
+  background-color: #f7f6f6;
+  border: none;
+  width: 71px;
+  height: 51px;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.cart__form {
+}
