@@ -11,6 +11,11 @@ a {
   text-decoration: none;
 }
 
+button:hover {
+  background-color: #000;
+  color: #ffffff;
+}
+
 .center {
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
@@ -88,7 +93,7 @@ a {
   margin-top: 64px;
   margin-bottom: 16px;
   color: #ffffff;
-  width: 790px;
+  max-width: 790px;
 }
 
 .subtitle {
@@ -353,6 +358,7 @@ select {
   outline: none;
   margin-bottom: 12px;
   padding-left: 20px;
+  padding-right: 20px;
 }
 
 .newsletter__btn-subscribe {
@@ -472,6 +478,7 @@ select {
 }
 .cart__form__input {
   padding-top: 24px;
+  font-size: 16px;
   border: none;
   background: transparent;
   border-bottom: 1px solid #cacdd8;
@@ -514,4 +521,39 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 393px);
+    padding-right: calc(50% - 393px);
+  }
+  .furniture-for__item {
+    height: 268px;
+  }
+  .product__content {
+    row-gap: 39px;
+    -moz-column-gap: 29px;
+         column-gap: 29px;
+  }
+  .footer__logo {
+    display: none;
+  }
+  .cart {
+    display: flex;
+    flex-direction: column;
+  }
+  .cart__form {
+    width: 376px;
+  }
+}
+@media (min-width: 768px) and (max-width: 833px) {
+  .center {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .product__item,
+  .special-offers__item {
+    width: 345px;
+  }
 }/*# sourceMappingURL=style.css.map */
