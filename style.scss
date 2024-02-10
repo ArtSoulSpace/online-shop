@@ -11,7 +11,7 @@ a {
   text-decoration: none;
 }
 
-button:hover{
+button:hover {
   background-color: #000;
   color: #ffffff;
 }
@@ -36,6 +36,10 @@ button:hover{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  &__menu-mob {
+    display: none;
+  }
 }
 
 .main__header {
@@ -177,7 +181,7 @@ select {
   align-items: center;
 }
 
-.furniture-for__item_big {
+.furniture-for__item__big {
   grid-column: span 6;
 }
 
@@ -288,18 +292,29 @@ select {
 
 /* Footer */
 
-.footer__content {
+.footer {
   background: #f7f6f6;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  gap: 198px;
   padding-top: 32px;
   padding-bottom: 32px;
+
+  &__content {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
 
 .footer__logo {
   display: flex;
   align-items: center;
+}
+
+.footer__info {
+  display: flex;
+  gap: 160px;
 }
 
 .footer__menu,
@@ -332,6 +347,10 @@ select {
   gap: 20px;
   align-items: center;
   padding-top: 12px;
+}
+
+.footer__icon:hover path{
+  fill: #000;
 }
 
 .newsletter__text {
@@ -371,5 +390,6 @@ select {
   color: #000000;
 }
 
-@import 'cart';
-@import 'tablet';
+@import "cart";
+@import "tablet";
+@import "mobile";
