@@ -226,6 +226,13 @@ select {
   width: 378px;
   display: flex;
   flex-direction: column;
+  transition: all 0.3s;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.special-offers__item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 9px #c4c4c4;
 }
 
 .product__img {
@@ -278,6 +285,13 @@ select {
   display: flex;
   flex-direction: column;
   cursor: pointer;
+  transition: all 0.3s;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.product__item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 9px #c4c4c4;
 }
 
 .catalog__link-box {
@@ -388,6 +402,7 @@ select {
   font-size: 15px;
   line-height: 18px;
   color: #000000;
+  transition: 0.5s;
 }
 
 .cart__page {
@@ -473,6 +488,7 @@ select {
   border-radius: 50px;
   font-size: 14px;
   background-color: #ffffff;
+  transition: 0.5s;
 }
 .cart__form {
   height: 556px;
@@ -522,6 +538,7 @@ select {
   height: 41px;
   border-radius: 20px;
   background-color: transparent;
+  transition: 0.5s;
 }
 
 .input__count {

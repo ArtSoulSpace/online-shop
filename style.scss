@@ -223,6 +223,14 @@ select {
   width: 378px;
   display: flex;
   flex-direction: column;
+  transition: all 0.3s;
+  padding: 8px;
+  box-sizing: border-box;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 9px #c4c4c4;
+  }
 }
 
 .product__img {
@@ -276,6 +284,14 @@ select {
   display: flex;
   flex-direction: column;
   cursor: pointer;
+  transition: all 0.3s;
+  padding: 8px;
+  box-sizing: border-box;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 9px #c4c4c4;
+  }
 }
 
 .catalog__link-box {
@@ -349,7 +365,7 @@ select {
   padding-top: 12px;
 }
 
-.footer__icon:hover path{
+.footer__icon:hover path {
   fill: #000;
 }
 
@@ -388,6 +404,7 @@ select {
   font-size: 15px;
   line-height: 18px;
   color: #000000;
+  transition: 0.5s;
 }
 
 @import "cart";
