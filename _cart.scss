@@ -123,11 +123,10 @@
       background: transparent;
       border-bottom: 1px solid #cacdd8;
     }
-    &__input::placeholder{
-        color: #000;
-        font-size: 16px;
+    &__input::placeholder {
+      color: #000;
+      font-size: 16px;
     }
-
 
     &__text {
       display: flex;
@@ -138,7 +137,7 @@
     }
 
     &__btn {
-        margin-left: 16px;
+      margin-left: 16px;
       font-size: 16px;
       width: 290px;
       height: 41px;
@@ -146,6 +145,10 @@
       background-color: transparent;
       transition: 0.5s;
     }
+  }
+
+  &__count{
+    position: relative;
   }
 }
 
@@ -157,6 +160,13 @@
   height: 51px;
   border-radius: 6px;
   padding: 20px;
+
+  &__arrows {
+    position: absolute;
+    z-index: 1;
+    bottom: 6px;
+    left: 40px;
+  }
 }
 
 input[type="number"]::-webkit-inner-spin-button,

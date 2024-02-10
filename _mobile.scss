@@ -111,4 +111,13 @@
   .footer__icon:active path{
     fill: #000;
   }
+
+  .favorite-icons {
+    left: 250px;
+  }
+
+  .menu-mob-icon:hover path,
+  .menu-mob-icon:active path{
+    fill: orangered;
+  }
 }

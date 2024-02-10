@@ -220,6 +220,7 @@ select {
 }
 
 .special-offers__item {
+  position: relative;
   width: 378px;
   display: flex;
   flex-direction: column;
@@ -230,6 +231,21 @@ select {
   &:hover {
     transform: scale(1.05);
     box-shadow: 0 0 9px #c4c4c4;
+  }
+}
+
+.favorite-icons {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  position: absolute;
+  box-sizing: border-box;
+  top: 20px;
+  left: 280px;
+
+  &__cart:hover path,
+  &__like:hover path {
+    fill: purple;
   }
 }
 
@@ -280,6 +296,7 @@ select {
 }
 
 .product__item {
+  position: relative;
   width: 378px;
   display: flex;
   flex-direction: column;

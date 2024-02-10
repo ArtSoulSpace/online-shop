@@ -6,31 +6,30 @@
 
   .furniture-for {
     &__item {
-        height: 268px;
+      height: 268px;
     }
   }
 
-  .product__content{
+  .product__content {
     row-gap: 39px;
     column-gap: 29px;
-
   }
 
-  .footer__logo{
+  .footer__logo {
     display: none;
   }
 
-  .cart{
+  .cart {
     display: flex;
     flex-direction: column;
 
-    &__form{
-        width: 376px;
+    &__form {
+      width: 376px;
     }
   }
 }
 
-@media (min-width:768px) and (max-width: 833px) {
+@media (min-width: 768px) and (max-width: 833px) {
   .center {
     padding-left: 24px;
     padding-right: 24px;
@@ -39,5 +38,9 @@
   .product__item,
   .special-offers__item {
     width: 345px;
+  }
+
+  .favorite-icons {
+    left: 250px;
   }
 }
